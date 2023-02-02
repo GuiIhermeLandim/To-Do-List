@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>To Do List</title>
+</head>
+<body>
+    
+    <main>
+
+        <h1>ToDo List</h1>
+
+        <div id="containers">
+
+            <!--Todo Area-->
+            <div class="task-container" id="todo-container">
+
+                <h2>To do</h2>
+                <span id="spanTodo">Sem Cards por aqui...</span>
+
+                <div id="cardTodo-container"></div>
+
+                <div id="addCard-container">
+                    <i class="fa-solid fa-plus"></i>
+                    <button class="addCard" id="addTodo"> Adicionar outro Card </button>    
+                </div>
+
+                <div id="taskTodo-input" class="hidden">
+                    <input type="text" id="inputTodo">
+                    <div class="card-buttons">
+                        <button id="addInputTodo"><i class="fa-solid fa-check"></i> </button> 
+                        <button id="clearInputTodo"><i class="fa-solid fa-xmark"></i> </button>    
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Doing Area-->
+            <div class="task-container" id="doing-container">
+                
+                <h2>Doing</h2>
+                <span id="spanDoing">Sem Cards por aqui...</span>
+
+                <div id="cardDoing-container"></div>
+                
+                <div id="addCard-container">
+                    <i class="fa-solid fa-plus"></i>
+                    <button class="addCard" id="addDoing"> Adicionar outro Card </button>    
+                </div>
+
+                <div id="taskDoing-input" class="hidden">
+                    <input type="text" id="inputDoing">
+                    <div class="card-buttons">
+                        <button id="addInputDoing"><i class="fa-solid fa-check"></i> </button> 
+                        <button id="clearInputDoing"><i class="fa-solid fa-xmark"></i> </button>    
+                    </div>
+                </div>
+
+            </div>
+
+            <!--Done Area-->
+            <div class="task-container" id="done-container">
+                
+                <h2>Done</h2>
+                <span id="spanDone">Sem Cards por aqui...</span>
+
+                <div id="cardDone-container"></div>
+                
+                <div id="addCard-container">
+                    <i class="fa-solid fa-plus"></i>
+                    <button class="addCard" id="addDone"> Adicionar outro Card </button>    
+                </div>
+
+                <div id="taskDone-input" class="hidden">
+                    <input type="text" id="inputDone">
+                    <div class="card-buttons">
+                        <button id="addInputDone"><i class="fa-solid fa-check"></i> </button> 
+                        <button id="clearInputDone"><i class="fa-solid fa-xmark"></i> </button>    
+                    </div>
+                </div>
+
+            </div>    
+        </div>
+        
+
+    </main>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

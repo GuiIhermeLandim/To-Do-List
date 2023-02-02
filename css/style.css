@@ -1,0 +1,168 @@
+:root {
+    --main-text-color: #FFF;
+    --secondary-text-color: #000;
+    --tertiary-text-color: rgba(255, 255, 255, 0.8);
+
+    --todo-bg-color: rgba(50, 200, 250, 0.7);
+    --doing-bg-color: rgb(150, 50, 250, 0.7);
+    --done-bg-color: rgba(0, 200, 100, 0.7);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+main > h1 {
+    text-align: center;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+#containers {
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+
+}
+
+.task-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    margin: .5em;
+    border-radius: .2em;
+    width: 400px;
+    color: var(--main-text-color);
+}
+
+.task-container h2{
+    margin-bottom: .5em;
+}
+
+#todo-container {
+    background-color: var(--todo-bg-color);
+}
+
+#doing-container {
+    background-color: var(--doing-bg-color);
+}
+
+#done-container {
+    background-color: var(--done-bg-color);
+}
+
+.task-card {
+    height: auto;
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-text-color);
+    font-size: 1.2em;
+    border-radius: .2em;
+    padding: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: var(--secondary-text-color);
+}
+
+.card-buttons > button{
+    border: none;
+    background-color: var(--main-text-color);
+    font-size: 1em;
+    padding-left: .5em;
+    cursor: pointer;
+}
+
+.card-buttons > button:hover{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.addCard {
+    background-color: rgba(255, 255, 255, 0);
+    color: var(--main-text-color);
+    border: none;
+    margin-top: 2em;
+}
+
+#addCard-container, .addCard {
+    cursor: pointer;
+}
+
+#addCard-container:hover {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+input {
+    width: 65%;
+    border: none;
+    border-bottom: solid 2px rgba(0, 0, 0, 0.445);
+}
+
+#taskTodo-input {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-text-color);
+    font-size: 1.2em;
+    border-radius: .2em;
+    padding: .5em;
+    padding-bottom: .3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: var(--secondary-text-color);
+}
+
+#taskDoing-input {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-text-color);
+    font-size: 1.2em;
+    border-radius: .2em;
+    padding: .5em;
+    padding-bottom: .3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: var(--secondary-text-color);
+}
+
+#taskDone-input {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-text-color);
+    font-size: 1.2em;
+    border-radius: .2em;
+    padding: .5em;
+    padding-bottom: .3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: var(--secondary-text-color);
+}
+
+span {
+    color: var(--tertiary-text-color);
+}
+
+.hidden {
+  display: none!important;
+}
