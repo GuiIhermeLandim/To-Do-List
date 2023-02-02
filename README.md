@@ -26,5 +26,5 @@ O Projeto utilizou HTML, CSS e JavaScript.
 
 ## 💭 Fale comigo!
 
-LinkedIn: (https://www.linkedin.com/in/guilherme-alves-landim/).# To-Do List
+LinkedIn: (https://www.linkedin.com/in/guilherme-alves-landim/).
  
