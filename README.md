@@ -1,4 +1,4 @@
-## Landing Page
+## ToDo List
 
 Projeto desenvolvido do 0 por mim, com a finalidade de praticar e aprofundar meus conhecimentos.
 
